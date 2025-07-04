@@ -35,12 +35,17 @@ Principalmente pensamos que la página debe ser simple pero atractiva, que sea f
 
 Esta paleta transmite una mezcla "Life Goes On" de BTS, "Kiss and Make Up" BlackPink, y un toque de "Another Day" de Stray Kids, mediante un estilo chill, relax y glamoroso, 100% K-pop, perfecta para el concepto del proyecto.
 
-| Elemento           | Color         | Código Hex        |
-|--------------------|---------------|-------------------|
-| Fondo              | Rosita celeste| `#B3C6FF y EEB4EF`|
-| Acente principal   |               | `       `         |
-| Acente secundario  |               | `       `         |
-| Texto/Detalles     |               | `       `         |
+| Elemento           | Color           | Código Hex         |
+|--------------------|-----------------|--------------------|
+| Fondo              | Rosita celeste  | `#B3C6FF y #EEB4EF`|
+| Acente principal   | Púrpura         | `#573D85`          |
+| Acente secundario  | Celeste Rosita  | `#B3C6FF y #EEB4EF`|
+| Texto/Detalles     | Negro           | `#1C0D12`          |
+| Otros 1            | Bordó           | `#994D66`          |
+| Otros 2            | Blanco          | `#FFFFFF`          |
+| Otros 3            | Gris            | `#000000 y #000000`|
+| Otros 4            | Rosa rojizo     | `#D76161`          |
+| Otros 5            | Blanco grisáseo | `#FCF7FA`          |
 
 ## 🖌️ Vista previa de colores en Markdown
 
@@ -53,10 +58,4 @@ Texto/Detalles:
 
 # 🎨 Fuente - StArmyNcks Store
 
-Fuente elegida Roboto Slab
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-```
+Fuente elegida Playpen Sans
