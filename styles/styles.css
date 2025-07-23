@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #D9CBF6;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Playpen Sans', cursive;
     color: #1C0D12;
 }
 
@@ -53,6 +53,7 @@ header {
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
+    font-family: 'Playpen Sans', cursive;
 }   
 
 .header__section button:hover {
