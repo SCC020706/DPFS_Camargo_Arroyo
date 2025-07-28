@@ -1,6 +1,6 @@
 # StArmyNcks Store - Presentación del Proyecto
 
-
+![LogoStArmyNcksStore](https://github.com/SCC020706/DPFS_Camargo_Arroyo/blob/main/logo.jpeg?raw=true)
 
 ## 🌍 Público Destinado
 Esta página va destinada a personas amantes del kpop y la culura coreana, especificamente para los fanáticos y fanáticas de los grupos de kpop Stray Kids, BlackPink y BTS. En ella van a poder encontrar una gran variedad de productos de sus cantantes favoritos 😍
