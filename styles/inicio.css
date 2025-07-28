@@ -1,0 +1,128 @@
+.main {
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 1rem 0;
+}
+
+.container {
+width: 70%;
+max-width: 1440px;
+margin: 0 auto;
+}
+
+/* Estilos del héroe*/
+.hero {
+min-height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 4rem 2rem;
+border-radius: 8px;
+margin: 1rem 0;
+position: relative;
+}
+
+.hero::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+border-radius: 8px;
+}
+
+.hero__content {
+position: relative;
+z-index: 1;
+max-width: 800px;
+margin: 0 auto;
+color: white;
+}
+
+.hero__title {
+font-size: 2.5rem;
+font-weight: 900;
+margin-bottom: 1rem;
+line-height: 1.2;
+}
+
+.hero__subtitle {
+font-size: 1.1rem;
+margin-bottom: 2rem;
+line-height: 1.5;
+}
+
+.hero__button {
+background-color: #573D85;
+color: white;
+border: none;
+padding: 0.75rem 1.5rem;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+font-family: 'Playpen Sans', cursive;
+transition: background-color 0.3s;
+}
+
+.hero__button:hover {
+background-color: #3B2B6A;
+}
+
+/* Estilos de productos*/
+.featured {
+padding: 2rem 0;
+}
+
+.products-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 1.5rem;
+padding: 1rem 0;
+}
+
+.product-card__3 {
+background: white;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s;
+flex: 0 0 calc(33.333% - 1rem);
+max-width: calc(33.333% - 1rem);
+margin-bottom: 1.5rem;
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+}
+
+.product-card__image {
+width: 100%;
+aspect-ratio: 1;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.product-card__info {
+padding: 1rem;
+}
+
+.product-card__title {
+font-weight: 600;
+color: #1C0D12;
+margin-bottom: 0.25rem;
+}
+
+.product-card__description {
+color: #6e6284;
+font-size: 0.9rem;
+}

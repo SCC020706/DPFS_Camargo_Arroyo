@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,16 +13,16 @@
 <body>
     <header class="header">
         <div class="header__section">
-            <img src="../logo.jpeg" alt=""> 
+            <img src="../logo.jpeg" alt="Logo de Starmink Store"> 
         </div>
         <div class="header__section">
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Álbumes</a></li>
-                    <li><a href="#">Ropa</a></li>
-                    <li><a href="#">Bombs</a></li>
-                    <li><a href="#">Merch oficial</a></li>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="albumes.html">Álbumes</a></li>
+                    <li><a href="ropa.html">Ropa</a></li>
+                    <li><a href="bombs.html">Bombs</a></li>
+                    <li><a href="merchoficial.html">Merch oficial</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,15 +31,84 @@
             <button>Regístrate</button> 
         </div>
     </header>
-    <main>
-        <section>
-            <div></div>
-            <div></div>
-            <div></div> 
-        </section>
+    <main class="main">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero" style="background-image: url('../static/webp/inicio/backgroundlayout.webp');">
+                <div class="hero__content">
+                    <h1 class="hero__title">Tu Destino Definitivo de K-Pop</h1>
+                    <p class="hero__subtitle">Explora los últimos álbumes, ropa y mercancía oficial de tus grupos favoritos.</p>
+                    <button class="hero__button">Comprar Ahora</button>
+                </div>
+            </section>
+
+            <!-- Productos destacados -->
+            <section class="featured">
+                <h2 class="section-title">Productos Destacados</h2>
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <article class="product-card__3">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/productosdestacados1.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">BTS - 'Love Yourself: Answer'</h3>
+                            <p class="product-card__description">Último álbum de BTS</p>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card__3">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/productosdestacados2.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Stray Kids - 'Noeasy'</h3>
+                            <p class="product-card__description">Último álbum de Stray Kids</p>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card__3">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/productosdestacados3.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">BLACKPINK - 'The Album'</h3>
+                            <p class="product-card__description">Último álbum de BLACKPINK</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Merch oficial -->
+            <section class="featured">
+                <h2 class="section-title">Mercancía Oficial</h2>
+                <div class="products-grid">
+                    <!-- Merch 1 -->
+                    <article class="product-card">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/merchoficial1.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Light Stick Oficial de BTS</h3>
+                        </div>
+                    </article>
+
+                    <!-- Merch 2 -->
+                    <article class="product-card">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/merchoficial2.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Sudadera Oficial de Stray Kids</h3>
+                        </div>
+                    </article>
+
+                    <!-- Merch 3 -->
+                    <article class="product-card">
+                        <div class="product-card__image" style="background-image: url('../static/webp/inicio/merchoficial3.webp');"></div>
+                        <div class="product-card__info">
+                            <h3 class="product-card__title">Camiseta Oficial de BLACKPINK</h3>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
     </main>
+
     <footer>
-        <p>Starmink Store</p>
+        <p>Starmink Store &copy; 2024 - Tu tienda de K-Pop favorita</p>
     </footer>
 </body>
 </html>
